@@ -1,0 +1,115 @@
+$global-background-color: #000000;
+$white: #fff;
+$bold: bold;
+$img: "file:///C:/Users/GAME_PC/Downloads/Image.png";
+$img54:"file:///C:/Users/GAME_PC/Downloads/Sub%20Container.png";
+
+body {
+    background-color: $global-background-color;
+    color: $white;
+    margin: 100px;
+    text-align: center;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-1 p {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.img {
+    width: 160px;
+    height: 48px;
+}
+
+.dream {
+    width: 400px;
+    height: auto;
+}
+.dream-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.button1 {
+   position: absolute;
+    width: 100px;
+    height:50px;
+    margin-top: 300px;
+    margin-right: 250px;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 20%;
+}
+.button2{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #703bf7;
+    border-radius: 10px;
+}
+.dream-text {
+    top: 20px;
+    color: $white;
+    font-weight: $bold;
+    margin: 0;
+    font-size: 40px;
+}
+.p-1{
+    top: 20px;
+    color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.img55 {
+    position: relative;
+    width: 700px;
+    height: 614px;
+    background-image: url(#{$img});
+    background-repeat: no-repeat;
+    background-size: 700px 614px;
+}
+.img54 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url(#{$img54});
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    margin-left: 700px;
+    margin-bottom: 800px;
+}
+.button1{
+    position: absolute;
+  color: white;
+  top: 100px;
+
+  font-size: 24px;
+}
